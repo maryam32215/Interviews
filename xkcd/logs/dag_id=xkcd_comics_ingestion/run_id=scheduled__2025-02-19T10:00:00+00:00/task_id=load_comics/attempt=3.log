@@ -1,0 +1,22 @@
+[2025-02-21T10:16:52.606+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comics_ingestion.load_comics scheduled__2025-02-19T10:00:00+00:00 [queued]>
+[2025-02-21T10:16:52.609+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comics_ingestion.load_comics scheduled__2025-02-19T10:00:00+00:00 [queued]>
+[2025-02-21T10:16:52.610+0000] {taskinstance.py:1359} INFO - Starting attempt 3 of 4
+[2025-02-21T10:16:52.614+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_comics> on 2025-02-19 10:00:00+00:00
+[2025-02-21T10:16:52.616+0000] {standard_task_runner.py:57} INFO - Started process 13767 to run task
+[2025-02-21T10:16:52.618+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comics_ingestion', 'load_comics', 'scheduled__2025-02-19T10:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmp23cnh5ey']
+[2025-02-21T10:16:52.619+0000] {standard_task_runner.py:85} INFO - Job 21: Subtask load_comics
+[2025-02-21T10:16:52.637+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comics_ingestion.load_comics scheduled__2025-02-19T10:00:00+00:00 [running]> on host a231dcd502c3
+[2025-02-21T10:16:52.665+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comics_ingestion' AIRFLOW_CTX_TASK_ID='load_comics' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-19T10:00:00+00:00'
+[2025-02-21T10:16:52.666+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/xkcd-comics-dag.py", line 147, in load_comics
+    if latest_stored_id == 0:
+NameError: name 'latest_stored_id' is not defined
+[2025-02-21T10:16:52.669+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=xkcd_comics_ingestion, task_id=load_comics, execution_date=20250219T100000, start_date=20250221T101652, end_date=20250221T101652
+[2025-02-21T10:16:52.673+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 21 for task load_comics (name 'latest_stored_id' is not defined; 13767)
+[2025-02-21T10:16:52.679+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-02-21T10:16:52.708+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

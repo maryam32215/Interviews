@@ -1,0 +1,224 @@
+[2025-03-02T00:56:57.957+0000] {processor.py:157} INFO - Started process (PID=21099) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T00:56:57.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T00:56:57.958+0000] {logging_mixin.py:151} INFO - [2025-03-02T00:56:57.958+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T00:56:57.971+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T00:56:57.988+0000] {logging_mixin.py:151} INFO - [2025-03-02T00:56:57.988+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T00:56:58.001+0000] {logging_mixin.py:151} INFO - [2025-03-02T00:56:58.001+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T00:56:58.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.057 seconds
+[2025-03-02T02:19:35.998+0000] {processor.py:157} INFO - Started process (PID=21109) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T02:19:35.999+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T02:19:35.999+0000] {logging_mixin.py:151} INFO - [2025-03-02T02:19:35.999+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T02:19:36.012+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T02:19:36.033+0000] {logging_mixin.py:151} INFO - [2025-03-02T02:19:36.032+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T02:19:36.047+0000] {logging_mixin.py:151} INFO - [2025-03-02T02:19:36.047+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T02:19:36.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.062 seconds
+[2025-03-02T03:56:21.812+0000] {processor.py:157} INFO - Started process (PID=21121) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T03:56:21.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T03:56:21.813+0000] {logging_mixin.py:151} INFO - [2025-03-02T03:56:21.813+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T03:56:21.827+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T03:56:21.844+0000] {logging_mixin.py:151} INFO - [2025-03-02T03:56:21.844+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T03:56:21.855+0000] {logging_mixin.py:151} INFO - [2025-03-02T03:56:21.855+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T03:56:21.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.055 seconds
+[2025-03-02T05:35:32.575+0000] {processor.py:157} INFO - Started process (PID=21131) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T05:35:32.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T05:35:32.577+0000] {logging_mixin.py:151} INFO - [2025-03-02T05:35:32.576+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T05:35:32.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T05:35:32.609+0000] {logging_mixin.py:151} INFO - [2025-03-02T05:35:32.609+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T05:35:32.621+0000] {logging_mixin.py:151} INFO - [2025-03-02T05:35:32.621+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T05:35:32.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.059 seconds
+[2025-03-02T06:49:32.671+0000] {processor.py:157} INFO - Started process (PID=21141) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T06:49:32.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T06:49:32.672+0000] {logging_mixin.py:151} INFO - [2025-03-02T06:49:32.672+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T06:49:32.687+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T06:49:32.710+0000] {logging_mixin.py:151} INFO - [2025-03-02T06:49:32.710+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T06:49:32.724+0000] {logging_mixin.py:151} INFO - [2025-03-02T06:49:32.724+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T06:49:32.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.068 seconds
+[2025-03-02T08:07:08.034+0000] {processor.py:157} INFO - Started process (PID=21152) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T08:07:08.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T08:07:08.036+0000] {logging_mixin.py:151} INFO - [2025-03-02T08:07:08.036+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T08:07:08.046+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T08:07:08.062+0000] {logging_mixin.py:151} INFO - [2025-03-02T08:07:08.062+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T08:07:08.074+0000] {logging_mixin.py:151} INFO - [2025-03-02T08:07:08.074+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T08:07:08.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.056 seconds
+[2025-03-02T09:17:39.498+0000] {processor.py:157} INFO - Started process (PID=21162) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T09:17:39.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T09:17:39.500+0000] {logging_mixin.py:151} INFO - [2025-03-02T09:17:39.500+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T09:17:39.521+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T09:17:39.559+0000] {logging_mixin.py:151} INFO - [2025-03-02T09:17:39.559+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T09:17:39.576+0000] {logging_mixin.py:151} INFO - [2025-03-02T09:17:39.576+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T09:17:39.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.093 seconds
+[2025-03-02T10:52:54.504+0000] {processor.py:157} INFO - Started process (PID=21172) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T10:52:54.505+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T10:52:54.507+0000] {logging_mixin.py:151} INFO - [2025-03-02T10:52:54.507+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T10:52:54.530+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T10:52:54.545+0000] {logging_mixin.py:151} INFO - [2025-03-02T10:52:54.545+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T10:52:54.560+0000] {logging_mixin.py:151} INFO - [2025-03-02T10:52:54.560+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T10:52:54.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.072 seconds
+[2025-03-02T11:35:35.995+0000] {processor.py:157} INFO - Started process (PID=21184) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T11:35:35.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T11:35:35.996+0000] {logging_mixin.py:151} INFO - [2025-03-02T11:35:35.996+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T11:35:36.010+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T11:35:36.027+0000] {logging_mixin.py:151} INFO - [2025-03-02T11:35:36.027+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T11:35:36.042+0000] {logging_mixin.py:151} INFO - [2025-03-02T11:35:36.042+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T11:35:36.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.064 seconds
+[2025-03-02T12:27:10.055+0000] {processor.py:157} INFO - Started process (PID=21194) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:10.056+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:27:10.057+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:10.056+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:10.074+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:10.101+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:10.101+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:27:10.118+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:10.118+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:27:10.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.085 seconds
+[2025-03-02T12:27:40.467+0000] {processor.py:157} INFO - Started process (PID=21204) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:40.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:27:40.468+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:40.468+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:40.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:27:40.503+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:40.502+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:27:40.515+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:27:40.515+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:27:40.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.062 seconds
+[2025-03-02T12:28:10.987+0000] {processor.py:157} INFO - Started process (PID=21214) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:10.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:28:10.989+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:10.989+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:11.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:11.026+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:11.026+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:28:11.040+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:11.040+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:28:11.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.068 seconds
+[2025-03-02T12:28:41.414+0000] {processor.py:157} INFO - Started process (PID=21224) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:41.415+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:28:41.416+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:41.416+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:41.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:28:41.454+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:41.454+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:28:41.466+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:28:41.466+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:28:41.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.067 seconds
+[2025-03-02T12:29:11.826+0000] {processor.py:157} INFO - Started process (PID=21234) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:11.826+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:29:11.827+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:11.827+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:11.847+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:11.863+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:11.863+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:29:11.876+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:11.876+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:29:11.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.063 seconds
+[2025-03-02T12:29:42.203+0000] {processor.py:157} INFO - Started process (PID=21244) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:42.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:29:42.205+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:42.204+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:42.218+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:29:42.236+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:42.236+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:29:42.249+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:29:42.249+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:29:42.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.059 seconds
+[2025-03-02T12:30:12.575+0000] {processor.py:157} INFO - Started process (PID=21254) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:12.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:30:12.577+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:12.577+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:12.602+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:12.623+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:12.623+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:30:12.638+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:12.638+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:30:12.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.077 seconds
+[2025-03-02T12:30:42.983+0000] {processor.py:157} INFO - Started process (PID=21264) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:42.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:30:42.984+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:42.984+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:42.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:30:43.014+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:43.014+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:30:43.025+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:30:43.025+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:30:43.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.056 seconds
+[2025-03-02T12:31:13.393+0000] {processor.py:157} INFO - Started process (PID=21274) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:13.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:31:13.395+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:13.395+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:13.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:13.434+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:13.433+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:31:13.445+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:13.445+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:31:13.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.067 seconds
+[2025-03-02T12:31:43.799+0000] {processor.py:157} INFO - Started process (PID=21284) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:43.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:31:43.801+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:43.800+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:43.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:31:43.847+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:43.847+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:31:43.860+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:31:43.860+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:31:43.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.078 seconds
+[2025-03-02T12:32:14.207+0000] {processor.py:157} INFO - Started process (PID=21294) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:14.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:32:14.209+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:14.209+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:14.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:14.247+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:14.247+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:32:14.262+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:14.262+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:32:14.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.069 seconds
+[2025-03-02T12:32:44.620+0000] {processor.py:157} INFO - Started process (PID=21304) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:44.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:32:44.622+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:44.622+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:44.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:32:44.659+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:44.659+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:32:44.675+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:32:44.675+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:32:44.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.069 seconds
+[2025-03-02T12:33:14.941+0000] {processor.py:157} INFO - Started process (PID=21314) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:33:14.942+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:33:14.943+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:33:14.942+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:33:14.962+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:33:14.980+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:33:14.980+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:33:14.991+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:33:14.991+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:33:15.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.066 seconds
+[2025-03-02T12:49:11.895+0000] {processor.py:157} INFO - Started process (PID=21326) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:49:11.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T12:49:11.897+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:49:11.897+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:49:11.910+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T12:49:11.926+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:49:11.926+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T12:49:11.938+0000] {logging_mixin.py:151} INFO - [2025-03-02T12:49:11.937+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T12:49:11.953+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.060 seconds
+[2025-03-02T13:21:01.468+0000] {processor.py:157} INFO - Started process (PID=21336) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T13:21:01.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T13:21:01.469+0000] {logging_mixin.py:151} INFO - [2025-03-02T13:21:01.469+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T13:21:01.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T13:21:01.509+0000] {logging_mixin.py:151} INFO - [2025-03-02T13:21:01.509+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T13:21:01.523+0000] {logging_mixin.py:151} INFO - [2025-03-02T13:21:01.523+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T13:21:01.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.069 seconds
+[2025-03-02T14:34:31.560+0000] {processor.py:157} INFO - Started process (PID=21348) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T14:34:31.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T14:34:31.561+0000] {logging_mixin.py:151} INFO - [2025-03-02T14:34:31.561+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T14:34:31.577+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T14:34:31.598+0000] {logging_mixin.py:151} INFO - [2025-03-02T14:34:31.598+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T14:34:31.613+0000] {logging_mixin.py:151} INFO - [2025-03-02T14:34:31.612+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T14:34:31.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.066 seconds
+[2025-03-02T15:47:44.876+0000] {processor.py:157} INFO - Started process (PID=21358) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T15:47:44.876+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T15:47:44.877+0000] {logging_mixin.py:151} INFO - [2025-03-02T15:47:44.876+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T15:47:44.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T15:47:44.910+0000] {logging_mixin.py:151} INFO - [2025-03-02T15:47:44.910+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T15:47:44.925+0000] {logging_mixin.py:151} INFO - [2025-03-02T15:47:44.925+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T15:47:44.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.061 seconds
+[2025-03-02T17:09:08.671+0000] {processor.py:157} INFO - Started process (PID=21368) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T17:09:08.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T17:09:08.672+0000] {logging_mixin.py:151} INFO - [2025-03-02T17:09:08.672+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T17:09:08.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T17:09:08.704+0000] {logging_mixin.py:151} INFO - [2025-03-02T17:09:08.704+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T17:09:08.716+0000] {logging_mixin.py:151} INFO - [2025-03-02T17:09:08.716+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T17:09:08.726+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.057 seconds
+[2025-03-02T18:38:25.414+0000] {processor.py:157} INFO - Started process (PID=21378) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T18:38:25.414+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T18:38:25.415+0000] {logging_mixin.py:151} INFO - [2025-03-02T18:38:25.415+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T18:38:25.429+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T18:38:25.446+0000] {logging_mixin.py:151} INFO - [2025-03-02T18:38:25.446+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T18:38:25.457+0000] {logging_mixin.py:151} INFO - [2025-03-02T18:38:25.457+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T18:38:25.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.056 seconds
+[2025-03-02T19:39:31.597+0000] {processor.py:157} INFO - Started process (PID=21390) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T19:39:31.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T19:39:31.598+0000] {logging_mixin.py:151} INFO - [2025-03-02T19:39:31.598+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T19:39:31.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T19:39:31.637+0000] {logging_mixin.py:151} INFO - [2025-03-02T19:39:31.636+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T19:39:31.654+0000] {logging_mixin.py:151} INFO - [2025-03-02T19:39:31.654+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T19:39:31.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.070 seconds
+[2025-03-02T21:16:00.438+0000] {processor.py:157} INFO - Started process (PID=21400) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T21:16:00.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T21:16:00.440+0000] {logging_mixin.py:151} INFO - [2025-03-02T21:16:00.439+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T21:16:00.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T21:16:00.474+0000] {logging_mixin.py:151} INFO - [2025-03-02T21:16:00.474+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T21:16:00.487+0000] {logging_mixin.py:151} INFO - [2025-03-02T21:16:00.487+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T21:16:00.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.064 seconds
+[2025-03-02T22:28:34.445+0000] {processor.py:157} INFO - Started process (PID=21410) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T22:28:34.446+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T22:28:34.446+0000] {logging_mixin.py:151} INFO - [2025-03-02T22:28:34.446+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T22:28:34.461+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T22:28:34.481+0000] {logging_mixin.py:151} INFO - [2025-03-02T22:28:34.480+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T22:28:34.492+0000] {logging_mixin.py:151} INFO - [2025-03-02T22:28:34.492+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T22:28:34.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.059 seconds
+[2025-03-02T23:43:24.284+0000] {processor.py:157} INFO - Started process (PID=21420) to work on /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T23:43:24.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd-comics-dag.py for tasks to queue
+[2025-03-02T23:43:24.288+0000] {logging_mixin.py:151} INFO - [2025-03-02T23:43:24.288+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T23:43:24.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comic_fetcher']) retrieved from /opt/airflow/dags/xkcd-comics-dag.py
+[2025-03-02T23:43:24.318+0000] {logging_mixin.py:151} INFO - [2025-03-02T23:43:24.318+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-03-02T23:43:24.332+0000] {logging_mixin.py:151} INFO - [2025-03-02T23:43:24.332+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comic_fetcher to 2025-02-28T05:00:00+00:00, run_after=2025-03-03T05:00:00+00:00
+[2025-03-02T23:43:24.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd-comics-dag.py took 0.061 seconds

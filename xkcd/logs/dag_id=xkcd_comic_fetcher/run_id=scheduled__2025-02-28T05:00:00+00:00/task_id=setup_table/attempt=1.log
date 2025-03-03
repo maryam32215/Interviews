@@ -1,0 +1,37 @@
+[2025-03-03T05:13:04.052+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.setup_table scheduled__2025-02-28T05:00:00+00:00 [queued]>
+[2025-03-03T05:13:04.056+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.setup_table scheduled__2025-02-28T05:00:00+00:00 [queued]>
+[2025-03-03T05:13:04.056+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-03-03T05:13:04.061+0000] {taskinstance.py:1380} INFO - Executing <Task(PostgresOperator): setup_table> on 2025-02-28 05:00:00+00:00
+[2025-03-03T05:13:04.063+0000] {standard_task_runner.py:57} INFO - Started process 21473 to run task
+[2025-03-03T05:13:04.065+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comic_fetcher', 'setup_table', 'scheduled__2025-02-28T05:00:00+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmpn5vmixlz']
+[2025-03-03T05:13:04.066+0000] {standard_task_runner.py:85} INFO - Job 76: Subtask setup_table
+[2025-03-03T05:13:04.084+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comic_fetcher.setup_table scheduled__2025-02-28T05:00:00+00:00 [running]> on host 25ffd23c4844
+[2025-03-03T05:13:04.114+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comic_fetcher' AIRFLOW_CTX_TASK_ID='setup_table' AIRFLOW_CTX_EXECUTION_DATE='2025-02-28T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-28T05:00:00+00:00'
+[2025-03-03T05:13:04.115+0000] {sql.py:274} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS comics (
+    comic_id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    img TEXT NOT NULL,
+    alt_text TEXT,
+    publish_date DATE NOT NULL,
+    transcript TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+[2025-03-03T05:13:04.115+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-03-03T05:13:04.115+0000] {base.py:73} INFO - Using connection ID 'xkcd_db' for task execution.
+[2025-03-03T05:13:04.116+0000] {base.py:73} INFO - Using connection ID 'xkcd_db' for task execution.
+[2025-03-03T05:13:04.117+0000] {sql.py:418} INFO - Running statement: 
+CREATE TABLE IF NOT EXISTS comics (
+    comic_id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    img TEXT NOT NULL,
+    alt_text TEXT,
+    publish_date DATE NOT NULL,
+    transcript TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);, parameters: None
+[2025-03-03T05:13:04.120+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xkcd_comic_fetcher, task_id=setup_table, execution_date=20250228T050000, start_date=20250303T051304, end_date=20250303T051304
+[2025-03-03T05:13:04.128+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-03-03T05:13:04.138+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2025-02-22T03:02:11.829+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-07T00:00:00+00:00 [queued]>
+[2025-02-22T03:02:11.833+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-07T00:00:00+00:00 [queued]>
+[2025-02-22T03:02:11.833+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2025-02-22T03:02:11.838+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_comics_for_day> on 2020-01-07 00:00:00+00:00
+[2025-02-22T03:02:11.840+0000] {standard_task_runner.py:57} INFO - Started process 23330 to run task
+[2025-02-22T03:02:11.842+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comics_daily_load', 'load_comics_for_day', 'scheduled__2020-01-07T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmp3rjodbup']
+[2025-02-22T03:02:11.843+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask load_comics_for_day
+[2025-02-22T03:02:11.862+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-07T00:00:00+00:00 [running]> on host a231dcd502c3
+[2025-02-22T03:02:11.891+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comics_daily_load' AIRFLOW_CTX_TASK_ID='load_comics_for_day' AIRFLOW_CTX_EXECUTION_DATE='2020-01-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2020-01-07T00:00:00+00:00'
+[2025-02-22T03:02:12.019+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.9/site-packages/***/utils/context.py:314 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-02-22T03:03:05.230+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 404: 404 Client Error: Not Found for url: https://xkcd.com/404/info.0.json
+[2025-02-22T03:03:28.526+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 527: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-02-22T04:10:35.723+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 535: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T04:10:51.799+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 543: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T05:30:34.832+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 546: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T05:30:45.599+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 550: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T06:31:32.052+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 560: HTTPSConnectionPool(host='xkcd.com', port=443): Max retries exceeded with url: /560/info.0.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[2025-02-22T06:31:45.389+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 567: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T07:33:33.984+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 585: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T07:33:44.332+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 586: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T07:33:54.543+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 593: HTTPSConnectionPool(host='xkcd.com', port=443): Max retries exceeded with url: /593/info.0.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[2025-02-22T08:49:34.319+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 619: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T08:49:47.267+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 627: HTTPSConnectionPool(host='xkcd.com', port=443): Read timed out. (read timeout=10)
+[2025-02-22T09:56:43.806+0000] {xkcd-comics-dag.py:84} INFO - Inserted comic #3054: Scream Cipher
+[2025-02-22T09:56:43.809+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-02-22T09:56:43.839+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xkcd_comics_daily_load, task_id=load_comics_for_day, execution_date=20200107T000000, start_date=20250222T030211, end_date=20250222T095643
+[2025-02-22T09:56:43.886+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-22T09:56:43.899+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

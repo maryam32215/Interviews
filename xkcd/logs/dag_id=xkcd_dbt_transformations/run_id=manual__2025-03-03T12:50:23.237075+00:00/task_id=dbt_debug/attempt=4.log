@@ -1,0 +1,76 @@
+[2025-03-03T13:02:11.747+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_dbt_transformations.dbt_debug manual__2025-03-03T12:50:23.237075+00:00 [queued]>
+[2025-03-03T13:02:11.751+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_dbt_transformations.dbt_debug manual__2025-03-03T12:50:23.237075+00:00 [queued]>
+[2025-03-03T13:02:11.751+0000] {taskinstance.py:1359} INFO - Starting attempt 4 of 5
+[2025-03-03T13:02:11.756+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): dbt_debug> on 2025-03-03 12:50:23.237075+00:00
+[2025-03-03T13:02:11.759+0000] {standard_task_runner.py:57} INFO - Started process 540 to run task
+[2025-03-03T13:02:11.761+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_dbt_transformations', 'dbt_debug', 'manual__2025-03-03T12:50:23.237075+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/xkcd_dbt_transformations.py', '--cfg-path', '/tmp/tmpahx39g19']
+[2025-03-03T13:02:11.762+0000] {standard_task_runner.py:85} INFO - Job 105: Subtask dbt_debug
+[2025-03-03T13:02:11.785+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_dbt_transformations.dbt_debug manual__2025-03-03T12:50:23.237075+00:00 [running]> on host e42a692d6092
+[2025-03-03T13:02:11.821+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_dbt_transformations' AIRFLOW_CTX_TASK_ID='dbt_debug' AIRFLOW_CTX_EXECUTION_DATE='2025-03-03T12:50:23.237075+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-03T12:50:23.237075+00:00'
+[2025-03-03T13:02:11.822+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-03-03T13:02:11.822+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /opt/dbt && /tmp/dbt_wrapper.sh debug --no-use-colors']
+[2025-03-03T13:02:11.827+0000] {subprocess.py:86} INFO - Output:
+[2025-03-03T13:02:13.282+0000] {subprocess.py:93} INFO - 13:02:13  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff96ada280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff948f7100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff948f72e0>]}
+[2025-03-03T13:02:13.282+0000] {subprocess.py:93} INFO - 13:02:13  Running with dbt=1.7.18
+[2025-03-03T13:02:13.283+0000] {subprocess.py:93} INFO - 13:02:13  running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/dbt', 'debug': 'True', 'fail_fast': 'False', 'log_path': '/opt/dbt/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug --no-use-colors', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[2025-03-03T13:02:13.283+0000] {subprocess.py:93} INFO - 13:02:13  dbt version: 1.7.18
+[2025-03-03T13:02:13.283+0000] {subprocess.py:93} INFO - 13:02:13  python version: 3.9.18
+[2025-03-03T13:02:13.284+0000] {subprocess.py:93} INFO - 13:02:13  python path: /usr/local/bin/python
+[2025-03-03T13:02:13.284+0000] {subprocess.py:93} INFO - 13:02:13  os info: Linux-6.10.14-linuxkit-aarch64-with-glibc2.31
+[2025-03-03T13:02:13.349+0000] {subprocess.py:93} INFO - 13:02:13  Using profiles dir at /opt/dbt
+[2025-03-03T13:02:13.349+0000] {subprocess.py:93} INFO - 13:02:13  Using profiles.yml file at /opt/dbt/profiles.yml
+[2025-03-03T13:02:13.350+0000] {subprocess.py:93} INFO - 13:02:13  Using dbt_project.yml file at /opt/dbt/dbt_project.yml
+[2025-03-03T13:02:13.350+0000] {subprocess.py:93} INFO - 13:02:13  adapter type: postgres
+[2025-03-03T13:02:13.351+0000] {subprocess.py:93} INFO - 13:02:13  adapter version: 1.7.18
+[2025-03-03T13:02:13.392+0000] {subprocess.py:93} INFO - 13:02:13  Configuration:
+[2025-03-03T13:02:13.393+0000] {subprocess.py:93} INFO - 13:02:13    profiles.yml file [OK found and valid]
+[2025-03-03T13:02:13.393+0000] {subprocess.py:93} INFO - 13:02:13    dbt_project.yml file [OK found and valid]
+[2025-03-03T13:02:13.394+0000] {subprocess.py:93} INFO - 13:02:13  Required dependencies:
+[2025-03-03T13:02:13.394+0000] {subprocess.py:93} INFO - 13:02:13  Executing "git --help"
+[2025-03-03T13:02:13.396+0000] {subprocess.py:93} INFO - 13:02:13   - git [ERROR]
+[2025-03-03T13:02:13.396+0000] {subprocess.py:93} INFO - 
+[2025-03-03T13:02:13.396+0000] {subprocess.py:93} INFO - 13:02:13  Connection:
+[2025-03-03T13:02:13.397+0000] {subprocess.py:93} INFO - 13:02:13    host: postgres
+[2025-03-03T13:02:13.397+0000] {subprocess.py:93} INFO - 13:02:13    port: 5432
+[2025-03-03T13:02:13.397+0000] {subprocess.py:93} INFO - 13:02:13    user: ***
+[2025-03-03T13:02:13.398+0000] {subprocess.py:93} INFO - 13:02:13    database: xkcd
+[2025-03-03T13:02:13.398+0000] {subprocess.py:93} INFO - 13:02:13    schema: public
+[2025-03-03T13:02:13.398+0000] {subprocess.py:93} INFO - 13:02:13    connect_timeout: 10
+[2025-03-03T13:02:13.399+0000] {subprocess.py:93} INFO - 13:02:13    role: None
+[2025-03-03T13:02:13.399+0000] {subprocess.py:93} INFO - 13:02:13    search_path: None
+[2025-03-03T13:02:13.399+0000] {subprocess.py:93} INFO - 13:02:13    keepalives_idle: 0
+[2025-03-03T13:02:13.399+0000] {subprocess.py:93} INFO - 13:02:13    sslmode: None
+[2025-03-03T13:02:13.400+0000] {subprocess.py:93} INFO - 13:02:13    sslcert: None
+[2025-03-03T13:02:13.400+0000] {subprocess.py:93} INFO - 13:02:13    sslkey: None
+[2025-03-03T13:02:13.400+0000] {subprocess.py:93} INFO - 13:02:13    sslrootcert: None
+[2025-03-03T13:02:13.400+0000] {subprocess.py:93} INFO - 13:02:13    application_name: dbt
+[2025-03-03T13:02:13.401+0000] {subprocess.py:93} INFO - 13:02:13    retries: 1
+[2025-03-03T13:02:13.401+0000] {subprocess.py:93} INFO - 13:02:13  Registered adapter: postgres=1.7.18
+[2025-03-03T13:02:13.402+0000] {subprocess.py:93} INFO - 13:02:13  Acquiring new postgres connection 'debug'
+[2025-03-03T13:02:13.402+0000] {subprocess.py:93} INFO - 13:02:13  Using postgres connection "debug"
+[2025-03-03T13:02:13.402+0000] {subprocess.py:93} INFO - 13:02:13  On debug: select 1 as id
+[2025-03-03T13:02:13.403+0000] {subprocess.py:93} INFO - 13:02:13  Opening a new connection, currently in state init
+[2025-03-03T13:02:13.406+0000] {subprocess.py:93} INFO - 13:02:13  SQL status: SELECT 1 in 0.0 seconds
+[2025-03-03T13:02:13.406+0000] {subprocess.py:93} INFO - 13:02:13  On debug: Close
+[2025-03-03T13:02:13.407+0000] {subprocess.py:93} INFO - 13:02:13    Connection test: [OK connection ok]
+[2025-03-03T13:02:13.407+0000] {subprocess.py:93} INFO - 
+[2025-03-03T13:02:13.407+0000] {subprocess.py:93} INFO - 13:02:13  1 check failed:
+[2025-03-03T13:02:13.407+0000] {subprocess.py:93} INFO - 13:02:13  Error from git --help: Could not find command, ensure it is in the user's PATH: "git"
+[2025-03-03T13:02:13.408+0000] {subprocess.py:93} INFO - 
+[2025-03-03T13:02:13.408+0000] {subprocess.py:93} INFO - 13:02:13  Resource report: {"command_name": "debug", "command_wall_clock_time": 0.15589258, "process_user_time": 1.511311, "process_kernel_time": 0.053186, "process_mem_max_rss": "102840", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[2025-03-03T13:02:13.409+0000] {subprocess.py:93} INFO - 13:02:13  Command `dbt debug` failed at 13:02:13.408959 after 0.16 seconds
+[2025-03-03T13:02:13.409+0000] {subprocess.py:93} INFO - 13:02:13  Connection 'debug' was properly closed.
+[2025-03-03T13:02:13.409+0000] {subprocess.py:93} INFO - 13:02:13  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff96ada280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff93e84760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff93e521f0>]}
+[2025-03-03T13:02:13.410+0000] {subprocess.py:93} INFO - 13:02:13  Flushing usage events
+[2025-03-03T13:02:14.168+0000] {subprocess.py:93} INFO - /tmp/dbt_wrapper.sh: line 12: dmesg: command not found
+[2025-03-03T13:02:14.168+0000] {subprocess.py:93} INFO - /tmp/dbt_wrapper.sh: line 12: grep: command not found
+[2025-03-03T13:02:14.178+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-03-03T13:02:14.183+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-03-03T13:02:14.184+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=xkcd_dbt_transformations, task_id=dbt_debug, execution_date=20250303T125023, start_date=20250303T130211, end_date=20250303T130214
+[2025-03-03T13:02:14.189+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 105 for task dbt_debug (Bash command failed. The command returned a non-zero exit code 1.; 540)
+[2025-03-03T13:02:14.206+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-03-03T13:02:14.216+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

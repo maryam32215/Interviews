@@ -1,0 +1,70 @@
+[2025-02-18T20:42:23.614+0000] {processor.py:157} INFO - Started process (PID=1644) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:23.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:42:23.615+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:23.615+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:23.628+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:23.636+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:23.636+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:42:23.648+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:23.647+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:42:23.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.045 seconds
+[2025-02-18T20:42:53.925+0000] {processor.py:157} INFO - Started process (PID=1659) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:53.926+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:42:53.926+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:53.926+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:53.933+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:42:53.945+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:53.945+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:42:53.954+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:42:53.954+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:42:53.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.038 seconds
+[2025-02-18T20:43:24.231+0000] {processor.py:157} INFO - Started process (PID=1674) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:24.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:24.232+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:24.232+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:24.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:24.245+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:24.245+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:24.255+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:24.255+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:24.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.034 seconds
+[2025-02-18T20:43:44.428+0000] {processor.py:157} INFO - Started process (PID=1684) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:44.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:44.429+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:44.429+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:44.438+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:44.455+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:44.455+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:44.467+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:44.467+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:44.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.050 seconds
+[2025-02-18T20:43:45.465+0000] {processor.py:157} INFO - Started process (PID=1689) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:45.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:45.467+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:45.466+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:45.476+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:45.489+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:45.489+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:45.498+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:45.498+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:45.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.043 seconds
+[2025-02-18T20:43:46.502+0000] {processor.py:157} INFO - Started process (PID=1694) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:46.503+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:46.503+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:46.503+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:46.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:46.526+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:46.526+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:46.536+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:46.536+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:46.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.043 seconds
+[2025-02-18T20:43:47.534+0000] {processor.py:157} INFO - Started process (PID=1699) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:47.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:47.535+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:47.535+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:47.545+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:47.558+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:47.558+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:47.568+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:47.568+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:47.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.044 seconds
+[2025-02-18T20:43:48.570+0000] {processor.py:157} INFO - Started process (PID=1704) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:48.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:48.571+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:48.570+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:48.577+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:48.596+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:48.595+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:48.607+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:48.607+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:48.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.049 seconds
+[2025-02-18T20:43:49.607+0000] {processor.py:157} INFO - Started process (PID=1709) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:49.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:43:49.608+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:49.608+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:49.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:43:49.630+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:49.630+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:43:49.639+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:43:49.639+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:43:49.647+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.042 seconds
+[2025-02-18T20:44:17.901+0000] {processor.py:157} INFO - Started process (PID=1724) to work on /opt/airflow/dags/newdag.py
+[2025-02-18T20:44:17.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2025-02-18T20:44:17.903+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:44:17.902+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2025-02-18T20:44:17.912+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_comics_ingestion']) retrieved from /opt/airflow/dags/newdag.py
+[2025-02-18T20:44:17.918+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:44:17.918+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-18T20:44:17.929+0000] {logging_mixin.py:151} INFO - [2025-02-18T20:44:17.929+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_comics_ingestion to 2025-02-14T10:00:00+00:00, run_after=2025-02-17T10:00:00+00:00
+[2025-02-18T20:44:17.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/newdag.py took 0.037 seconds

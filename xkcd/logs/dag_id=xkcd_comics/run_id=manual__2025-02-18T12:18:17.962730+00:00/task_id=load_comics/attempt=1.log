@@ -1,0 +1,194 @@
+[2025-02-18T12:18:19.787+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comics.load_comics manual__2025-02-18T12:18:17.962730+00:00 [queued]>
+[2025-02-18T12:18:19.790+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comics.load_comics manual__2025-02-18T12:18:17.962730+00:00 [queued]>
+[2025-02-18T12:18:19.790+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2025-02-18T12:18:19.795+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_comics> on 2025-02-18 12:18:17.962730+00:00
+[2025-02-18T12:18:19.797+0000] {standard_task_runner.py:57} INFO - Started process 191 to run task
+[2025-02-18T12:18:19.799+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comics', 'load_comics', 'manual__2025-02-18T12:18:17.962730+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmpoygtjty0']
+[2025-02-18T12:18:19.800+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask load_comics
+[2025-02-18T12:18:19.806+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-18T12:18:19.822+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comics.load_comics manual__2025-02-18T12:18:17.962730+00:00 [running]> on host 666159ec39b4
+[2025-02-18T12:18:19.849+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comics' AIRFLOW_CTX_TASK_ID='load_comics' AIRFLOW_CTX_EXECUTION_DATE='2025-02-18T12:18:17.962730+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-18T12:18:17.962730+00:00'
+[2025-02-18T12:18:19.907+0000] {logging_mixin.py:151} WARNING - --- Logging error ---
+[2025-02-18T12:18:19.908+0000] {logging_mixin.py:151} WARNING - Traceback (most recent call last):
+[2025-02-18T12:18:19.908+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+[2025-02-18T12:18:19.908+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+[2025-02-18T12:18:19.908+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+[2025-02-18T12:18:19.908+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+[2025-02-18T12:18:19.909+0000] {logging_mixin.py:151} WARNING - TypeError: not all arguments converted during string formatting
+[2025-02-18T12:18:19.909+0000] {logging_mixin.py:151} WARNING - Call stack:
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/bin/***", line 8, in <module>
+    sys.exit(main())
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/__main__.py", line 59, in main
+    args.func(args)
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 113, in wrapper
+    return f(*args, **kwargs)
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/scheduler_command.py", line 85, in scheduler
+    _run_scheduler_job(job_runner, skip_serve_logs=args.skip_serve_logs)
+[2025-02-18T12:18:19.911+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/scheduler_command.py", line 47, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 289, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 318, in execute_job
+    ret = execute_callable()
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/scheduler_job_runner.py", line 836, in _execute
+    self.job.executor.start()
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 371, in start
+    self.impl.start()
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 308, in start
+    worker.start()
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+[2025-02-18T12:18:19.912+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/popen_fork.py", line 75, in _launch
+    code = process_obj._bootstrap(parent_sentinel=child_r)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 74, in run
+    return super().run()
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 198, in do_work
+    self.execute_work(key=key, command=command)
+[2025-02-18T12:18:19.913+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 91, in execute_work
+    state = self._execute_work_in_fork(command)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/executors/local_executor.py", line 131, in _execute_work_in_fork
+    args.func(args)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 113, in wrapper
+    return f(*args, **kwargs)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 430, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 208, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 270, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+[2025-02-18T12:18:19.914+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 289, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 318, in execute_job
+    ret = execute_callable()
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/local_task_job_runner.py", line 159, in _execute
+    self.task_runner.start()
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 45, in start
+    self.process = self._start_by_fork()
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 97, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+[2025-02-18T12:18:19.915+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 113, in wrapper
+    return f(*args, **kwargs)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 430, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 210, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 289, in _run_raw_task
+    return ti._run_raw_task(
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 1516, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 1679, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+[2025-02-18T12:18:19.916+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 1742, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/opt/***/dags/xkcd-comics-dag.py", line 122, in load_all_comics
+    logging.info(latest_comic, 'latest_comic')
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 2082, in info
+    root.info(msg, *args, **kwargs)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1446, in info
+    self._log(INFO, msg, args, **kwargs)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+[2025-02-18T12:18:19.917+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+[2025-02-18T12:18:19.918+0000] {logging_mixin.py:151} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 954, in handle
+    self.emit(record)
+[2025-02-18T12:18:19.918+0000] {logging_mixin.py:151} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/log/file_task_handler.py", line 211, in emit
+    self.handler.emit(record)
+[2025-02-18T12:18:19.918+0000] {logging_mixin.py:151} WARNING - Message: {'month': '2', 'num': 3052, 'link': '', 'year': '2025', 'news': '', 'safe_title': 'Archive Request', 'transcript': '', 'alt': "They just want researchers in the enclosure to feel enriched and stimulated. ('The Enclosure' is what archivists call the shadowy world outside their archives in which so many people are trapped.)", 'img': 'https://imgs.xkcd.com/comics/archive_request.png', 'title': 'Archive Request', 'day': '17'}
+Arguments: ('latest_comic',)
+[2025-02-18T12:18:19.921+0000] {xkcd-comics-dag.py:130} INFO - Latest comic ID: 3052
+[2025-02-18T12:18:19.921+0000] {xkcd-comics-dag.py:131} INFO - Latest stored comic ID: 3052
+[2025-02-18T12:18:19.922+0000] {logging_mixin.py:151} INFO - Stored comic #3052: Archive Request
+[2025-02-18T12:18:19.923+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #1
+[2025-02-18T12:18:19.982+0000] {logging_mixin.py:151} INFO - Stored comic #1: Barrel - Part 1
+[2025-02-18T12:18:20.988+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #2
+[2025-02-18T12:18:21.070+0000] {logging_mixin.py:151} INFO - Stored comic #2: Petit Trees (sketch)
+[2025-02-18T12:18:22.077+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #3
+[2025-02-18T12:18:22.140+0000] {logging_mixin.py:151} INFO - Stored comic #3: Island (sketch)
+[2025-02-18T12:18:23.148+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #4
+[2025-02-18T12:18:23.213+0000] {logging_mixin.py:151} INFO - Stored comic #4: Landscape (sketch)
+[2025-02-18T12:18:24.221+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #5
+[2025-02-18T12:18:24.300+0000] {logging_mixin.py:151} INFO - Stored comic #5: Blown apart
+[2025-02-18T12:18:25.303+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #6
+[2025-02-18T12:18:25.367+0000] {logging_mixin.py:151} INFO - Stored comic #6: Irony
+[2025-02-18T12:18:26.371+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #7
+[2025-02-18T12:18:26.439+0000] {logging_mixin.py:151} INFO - Stored comic #7: Girl sleeping (Sketch -- 11th grade Spanish class)
+[2025-02-18T12:18:27.444+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #8
+[2025-02-18T12:18:27.568+0000] {logging_mixin.py:151} INFO - Stored comic #8: Red spiders
+[2025-02-18T12:18:28.576+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #9
+[2025-02-18T12:18:28.640+0000] {logging_mixin.py:151} INFO - Stored comic #9: Serenity is coming out tomorrow
+[2025-02-18T12:18:29.643+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #10
+[2025-02-18T12:18:29.718+0000] {logging_mixin.py:151} INFO - Stored comic #10: Pi Equals
+[2025-02-18T12:18:30.720+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #11
+[2025-02-18T12:18:30.888+0000] {logging_mixin.py:151} INFO - Stored comic #11: Barrel - Part 2
+[2025-02-18T12:18:31.891+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #12
+[2025-02-18T12:18:32.242+0000] {logging_mixin.py:151} INFO - Stored comic #12: Poisson
+[2025-02-18T12:18:33.249+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #13
+[2025-02-18T12:18:33.665+0000] {logging_mixin.py:151} INFO - Stored comic #13: Canyon
+[2025-02-18T12:18:34.671+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #14
+[2025-02-18T12:18:35.009+0000] {logging_mixin.py:151} INFO - Stored comic #14: Copyright
+[2025-02-18T12:18:36.012+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #15
+[2025-02-18T12:18:36.086+0000] {logging_mixin.py:151} INFO - Stored comic #15: Just Alerting You
+[2025-02-18T12:18:37.090+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #16
+[2025-02-18T12:18:37.441+0000] {logging_mixin.py:151} INFO - Stored comic #16: Monty Python -- Enough
+[2025-02-18T12:18:38.447+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #17
+[2025-02-18T12:18:38.521+0000] {logging_mixin.py:151} INFO - Stored comic #17: What If
+[2025-02-18T12:18:39.522+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #18
+[2025-02-18T12:18:39.598+0000] {logging_mixin.py:151} INFO - Stored comic #18: Snapple
+[2025-02-18T12:18:40.604+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #19
+[2025-02-18T12:18:40.663+0000] {logging_mixin.py:151} INFO - Stored comic #19: George Clinton
+[2025-02-18T12:18:41.666+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #20
+[2025-02-18T12:18:41.755+0000] {logging_mixin.py:151} INFO - Stored comic #20: Ferret
+[2025-02-18T12:18:42.759+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #21
+[2025-02-18T12:18:42.830+0000] {logging_mixin.py:151} INFO - Stored comic #21: Kepler
+[2025-02-18T12:18:43.836+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #22
+[2025-02-18T12:18:44.188+0000] {logging_mixin.py:151} INFO - Stored comic #22: Barrel - Part 3
+[2025-02-18T12:18:45.194+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #23
+[2025-02-18T12:18:45.258+0000] {logging_mixin.py:151} INFO - Stored comic #23: T-shirts
+[2025-02-18T12:18:46.262+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #24
+[2025-02-18T12:18:46.619+0000] {logging_mixin.py:151} INFO - Stored comic #24: Godel, Escher, Kurt Halsey
+[2025-02-18T12:18:47.622+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #25
+[2025-02-18T12:18:47.703+0000] {logging_mixin.py:151} INFO - Stored comic #25: Barrel - Part 4
+[2025-02-18T12:18:48.709+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #26
+[2025-02-18T12:18:48.786+0000] {logging_mixin.py:151} INFO - Stored comic #26: Fourier
+[2025-02-18T12:18:49.792+0000] {xkcd-comics-dag.py:141} INFO - Fetching comic #27
+[2025-02-18T12:18:49.950+0000] {logging_mixin.py:151} INFO - Stored comic #27: Meat Cereals
+[2025-02-18T12:18:50.009+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2025-02-18T12:18:50.011+0000] {process_utils.py:131} INFO - Sending 15 to group 191. PIDs of all processes in the group: [191]
+[2025-02-18T12:18:50.011+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 191
+[2025-02-18T12:18:50.011+0000] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-02-18T12:18:50.023+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=191, status='terminated', exitcode=0, started='12:18:18') (191) terminated with exit code 0

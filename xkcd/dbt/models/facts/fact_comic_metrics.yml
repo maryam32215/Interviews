@@ -1,0 +1,39 @@
+version: 2
+models:
+  - name: fact_comic_metrics
+    columns:
+      - name: comic_id
+        is_nullable: no
+        description: "Identifier of the comics."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_xkcd_comic')
+              field: comic_id
+
+      - name: views 
+        is_nullable: no
+        description: The views per comic can be calculated by multiplying a random number between 0 and 1
+        tests:
+          - not_null
+          - positive_value
+          - max_value:
+              value: 10000
+              
+      - name: review_score
+        is_nullable: no
+        description: The reviews are a random number between 1.0 and 10.0
+        tests:
+          - not_null
+          - min_value:
+              value: 1.0
+          - max_value:
+              value: 10.0
+      
+      - name: calculated_date
+        is_nullable: no
+        description: The date at which views and reviews are calculated
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date

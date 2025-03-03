@@ -1,0 +1,28 @@
+[2025-02-26T06:41:32.929+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.wait_for_comic scheduled__2025-02-24T05:00:00+00:00 [queued]>
+[2025-02-26T06:41:32.932+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.wait_for_comic scheduled__2025-02-24T05:00:00+00:00 [queued]>
+[2025-02-26T06:41:32.933+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-02-26T06:41:32.937+0000] {taskinstance.py:1380} INFO - Executing <Task(XKCDComicSensor): wait_for_comic> on 2025-02-24 05:00:00+00:00
+[2025-02-26T06:41:32.939+0000] {standard_task_runner.py:57} INFO - Started process 18259 to run task
+[2025-02-26T06:41:32.941+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comic_fetcher', 'wait_for_comic', 'scheduled__2025-02-24T05:00:00+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmp95gfld41']
+[2025-02-26T06:41:32.942+0000] {standard_task_runner.py:85} INFO - Job 73: Subtask wait_for_comic
+[2025-02-26T06:41:32.961+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comic_fetcher.wait_for_comic scheduled__2025-02-24T05:00:00+00:00 [running]> on host 25ffd23c4844
+[2025-02-26T06:41:32.992+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comic_fetcher' AIRFLOW_CTX_TASK_ID='wait_for_comic' AIRFLOW_CTX_EXECUTION_DATE='2025-02-24T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-24T05:00:00+00:00'
+[2025-02-26T06:41:32.993+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-02-26T06:41:32.993+0000] {base.py:73} INFO - Using connection ID 'xkcd_db' for task execution.
+[2025-02-26T06:41:32.994+0000] {sql.py:418} INFO - Running statement: SELECT MAX(comic_id) FROM public.comics, parameters: None
+[2025-02-26T06:41:32.995+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-02-26T06:41:33.001+0000] {xkcd_sensor.py:65} ERROR - Error checking for new comic: HTTPSConnectionPool(host='xkcd.com', port=443): Max retries exceeded with url: /info.0.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffb3865ac0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2025-02-26T07:54:30.143+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2025-02-26T07:54:30.146+0000] {process_utils.py:131} INFO - Sending 15 to group 18259. PIDs of all processes in the group: [18259]
+[2025-02-26T07:54:30.147+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 18259
+[2025-02-26T07:54:30.147+0000] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-02-26T07:54:30.152+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1632, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2025-02-26T07:54:30.154+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=xkcd_comic_fetcher, task_id=wait_for_comic, execution_date=20250224T050000, start_date=20250226T064132, end_date=20250226T075430
+[2025-02-26T07:54:30.160+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 73 for task wait_for_comic (Task received SIGTERM signal; 18259)
+[2025-02-26T07:54:30.170+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=18259, status='terminated', exitcode=1, started='06:41:32') (18259) terminated with exit code 1

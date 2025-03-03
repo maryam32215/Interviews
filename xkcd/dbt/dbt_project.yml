@@ -1,0 +1,38 @@
+# dbt_project.yml
+
+name: 'xkcd_comics_analytics'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'xkcd_project'
+
+# Comment out this line instead of setting it to false
+# require-dbt-version: false
+
+# Or set it to a string version specification
+require-dbt-version: ">=1.0.0"
+
+# These configurations specify where dbt should look for different types of files.
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+models:
+  xkcd_comics_analytics:
+    # Config defaults
+    staging:
+      +materialized: view
+    dims:
+      +materialized: table
+    facts:
+      +materialized: table

@@ -1,0 +1,133 @@
+[2025-02-28T00:56:03.927+0000] {processor.py:157} INFO - Started process (PID=20705) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T00:56:03.928+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T00:56:03.929+0000] {logging_mixin.py:151} INFO - [2025-02-28T00:56:03.929+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T00:56:03.942+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T00:56:03.958+0000] {logging_mixin.py:151} INFO - [2025-02-28T00:56:03.958+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T00:56:03.968+0000] {logging_mixin.py:151} INFO - [2025-02-28T00:56:03.968+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T00:56:03.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.053 seconds
+[2025-02-28T02:33:37.744+0000] {processor.py:157} INFO - Started process (PID=20715) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T02:33:37.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T02:33:37.747+0000] {logging_mixin.py:151} INFO - [2025-02-28T02:33:37.746+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T02:33:37.760+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T02:33:37.778+0000] {logging_mixin.py:151} INFO - [2025-02-28T02:33:37.778+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T02:33:37.794+0000] {logging_mixin.py:151} INFO - [2025-02-28T02:33:37.794+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T02:33:37.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.069 seconds
+[2025-02-28T04:11:35.714+0000] {processor.py:157} INFO - Started process (PID=20727) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T04:11:35.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T04:11:35.716+0000] {logging_mixin.py:151} INFO - [2025-02-28T04:11:35.715+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T04:11:35.731+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T04:11:35.749+0000] {logging_mixin.py:151} INFO - [2025-02-28T04:11:35.748+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T04:11:35.760+0000] {logging_mixin.py:151} INFO - [2025-02-28T04:11:35.760+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T04:11:35.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.058 seconds
+[2025-02-28T05:39:18.859+0000] {processor.py:157} INFO - Started process (PID=20739) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T05:39:18.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T05:39:18.863+0000] {logging_mixin.py:151} INFO - [2025-02-28T05:39:18.863+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T05:39:18.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T05:39:18.894+0000] {logging_mixin.py:151} INFO - [2025-02-28T05:39:18.894+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T05:39:18.910+0000] {logging_mixin.py:151} INFO - [2025-02-28T05:39:18.910+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T05:39:18.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.065 seconds
+[2025-02-28T06:49:12.409+0000] {processor.py:157} INFO - Started process (PID=20751) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T06:49:12.410+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T06:49:12.411+0000] {logging_mixin.py:151} INFO - [2025-02-28T06:49:12.411+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T06:49:12.425+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T06:49:12.449+0000] {logging_mixin.py:151} INFO - [2025-02-28T06:49:12.449+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T06:49:12.463+0000] {logging_mixin.py:151} INFO - [2025-02-28T06:49:12.462+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T06:49:12.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.073 seconds
+[2025-02-28T08:04:44.573+0000] {processor.py:157} INFO - Started process (PID=20766) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T08:04:44.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T08:04:44.575+0000] {logging_mixin.py:151} INFO - [2025-02-28T08:04:44.575+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T08:04:44.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T08:04:44.604+0000] {logging_mixin.py:151} INFO - [2025-02-28T08:04:44.604+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T08:04:44.617+0000] {logging_mixin.py:151} INFO - [2025-02-28T08:04:44.617+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T08:04:44.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.055 seconds
+[2025-02-28T09:15:37.936+0000] {processor.py:157} INFO - Started process (PID=20778) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T09:15:37.938+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T09:15:37.939+0000] {logging_mixin.py:151} INFO - [2025-02-28T09:15:37.938+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T09:15:37.956+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T09:15:37.988+0000] {logging_mixin.py:151} INFO - [2025-02-28T09:15:37.988+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T09:15:38.007+0000] {logging_mixin.py:151} INFO - [2025-02-28T09:15:38.007+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T09:15:38.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.088 seconds
+[2025-02-28T10:32:15.032+0000] {processor.py:157} INFO - Started process (PID=20788) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T10:32:15.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T10:32:15.033+0000] {logging_mixin.py:151} INFO - [2025-02-28T10:32:15.033+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T10:32:15.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T10:32:15.064+0000] {logging_mixin.py:151} INFO - [2025-02-28T10:32:15.064+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T10:32:15.078+0000] {logging_mixin.py:151} INFO - [2025-02-28T10:32:15.078+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T10:32:15.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.059 seconds
+[2025-02-28T11:34:09.115+0000] {processor.py:157} INFO - Started process (PID=20798) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T11:34:09.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T11:34:09.120+0000] {logging_mixin.py:151} INFO - [2025-02-28T11:34:09.120+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T11:34:09.131+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T11:34:09.152+0000] {logging_mixin.py:151} INFO - [2025-02-28T11:34:09.152+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T11:34:09.164+0000] {logging_mixin.py:151} INFO - [2025-02-28T11:34:09.164+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T11:34:09.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.069 seconds
+[2025-02-28T13:07:28.916+0000] {processor.py:157} INFO - Started process (PID=20808) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T13:07:28.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T13:07:28.918+0000] {logging_mixin.py:151} INFO - [2025-02-28T13:07:28.917+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T13:07:28.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T13:07:28.948+0000] {logging_mixin.py:151} INFO - [2025-02-28T13:07:28.948+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T13:07:28.962+0000] {logging_mixin.py:151} INFO - [2025-02-28T13:07:28.962+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T13:07:28.970+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.056 seconds
+[2025-02-28T14:20:38.134+0000] {processor.py:157} INFO - Started process (PID=20820) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T14:20:38.139+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T14:20:38.140+0000] {logging_mixin.py:151} INFO - [2025-02-28T14:20:38.140+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T14:20:38.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T14:20:38.192+0000] {logging_mixin.py:151} INFO - [2025-02-28T14:20:38.192+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T14:20:38.211+0000] {logging_mixin.py:151} INFO - [2025-02-28T14:20:38.211+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T14:20:38.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.096 seconds
+[2025-02-28T15:21:37.398+0000] {processor.py:157} INFO - Started process (PID=20830) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T15:21:37.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T15:21:37.402+0000] {logging_mixin.py:151} INFO - [2025-02-28T15:21:37.402+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T15:21:37.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T15:21:37.433+0000] {logging_mixin.py:151} INFO - [2025-02-28T15:21:37.433+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T15:21:37.445+0000] {logging_mixin.py:151} INFO - [2025-02-28T15:21:37.445+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T15:21:37.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.059 seconds
+[2025-02-28T16:22:41.393+0000] {processor.py:157} INFO - Started process (PID=20840) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T16:22:41.394+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T16:22:41.395+0000] {logging_mixin.py:151} INFO - [2025-02-28T16:22:41.395+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T16:22:41.407+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T16:22:41.436+0000] {logging_mixin.py:151} INFO - [2025-02-28T16:22:41.436+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T16:22:41.455+0000] {logging_mixin.py:151} INFO - [2025-02-28T16:22:41.454+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T16:22:41.470+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.079 seconds
+[2025-02-28T17:55:51.924+0000] {processor.py:157} INFO - Started process (PID=20852) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T17:55:51.925+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T17:55:51.925+0000] {logging_mixin.py:151} INFO - [2025-02-28T17:55:51.925+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T17:55:51.936+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T17:55:51.952+0000] {logging_mixin.py:151} INFO - [2025-02-28T17:55:51.952+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T17:55:51.964+0000] {logging_mixin.py:151} INFO - [2025-02-28T17:55:51.963+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T17:55:51.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.052 seconds
+[2025-02-28T19:13:57.963+0000] {processor.py:157} INFO - Started process (PID=20862) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T19:13:57.964+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T19:13:57.965+0000] {logging_mixin.py:151} INFO - [2025-02-28T19:13:57.965+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T19:13:57.977+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T19:13:57.996+0000] {logging_mixin.py:151} INFO - [2025-02-28T19:13:57.996+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T19:13:58.009+0000] {logging_mixin.py:151} INFO - [2025-02-28T19:13:58.009+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T19:13:58.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.058 seconds
+[2025-02-28T20:26:38.123+0000] {processor.py:157} INFO - Started process (PID=20872) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T20:26:38.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T20:26:38.125+0000] {logging_mixin.py:151} INFO - [2025-02-28T20:26:38.125+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T20:26:38.138+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T20:26:38.157+0000] {logging_mixin.py:151} INFO - [2025-02-28T20:26:38.157+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T20:26:38.169+0000] {logging_mixin.py:151} INFO - [2025-02-28T20:26:38.169+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T20:26:38.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.057 seconds
+[2025-02-28T21:15:45.912+0000] {processor.py:157} INFO - Started process (PID=20882) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T21:15:45.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T21:15:45.916+0000] {logging_mixin.py:151} INFO - [2025-02-28T21:15:45.916+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T21:15:45.926+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T21:15:45.941+0000] {logging_mixin.py:151} INFO - [2025-02-28T21:15:45.941+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T21:15:45.953+0000] {logging_mixin.py:151} INFO - [2025-02-28T21:15:45.953+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T21:15:45.963+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.052 seconds
+[2025-02-28T22:28:40.368+0000] {processor.py:157} INFO - Started process (PID=20894) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T22:28:40.368+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T22:28:40.369+0000] {logging_mixin.py:151} INFO - [2025-02-28T22:28:40.369+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T22:28:40.384+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T22:28:40.408+0000] {logging_mixin.py:151} INFO - [2025-02-28T22:28:40.408+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T22:28:40.421+0000] {logging_mixin.py:151} INFO - [2025-02-28T22:28:40.421+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T22:28:40.436+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.070 seconds
+[2025-02-28T23:46:28.989+0000] {processor.py:157} INFO - Started process (PID=20904) to work on /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T23:46:28.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/xkcd_dbt_dag.py for tasks to queue
+[2025-02-28T23:46:28.991+0000] {logging_mixin.py:151} INFO - [2025-02-28T23:46:28.991+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T23:46:29.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['xkcd_dbt_dag']) retrieved from /opt/airflow/dags/xkcd_dbt_dag.py
+[2025-02-28T23:46:29.023+0000] {logging_mixin.py:151} INFO - [2025-02-28T23:46:29.023+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-02-28T23:46:29.035+0000] {logging_mixin.py:151} INFO - [2025-02-28T23:46:29.035+0000] {dag.py:3696} INFO - Setting next_dagrun for xkcd_dbt_dag to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-28T23:46:29.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/xkcd_dbt_dag.py took 0.060 seconds

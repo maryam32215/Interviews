@@ -1,0 +1,8 @@
+# Airflow and project requirements
+apache-airflow==2.7.1
+dbt-core==1.7.18
+dbt-postgres==1.7.18
+apache-airflow-providers-postgres
+psycopg2-binary
+requests
+pandas

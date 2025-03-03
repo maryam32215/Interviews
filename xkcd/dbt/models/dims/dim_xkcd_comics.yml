@@ -1,0 +1,56 @@
+version: 2
+models:
+  - name: dim_comic
+    columns:
+      - name: comic_id
+        description: comic identifier for unique comics
+        tests:
+          - unique
+          - not_null
+
+      - name: title
+        description: name of the comics
+        tests:
+          - not_null
+      
+      - name: img_url
+        description: image url of the comics
+
+      - name: alt_text
+        description: description of the comics
+
+      - name: publish_date
+        description:  date at which comic is being published
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: transcript
+        description: transcript of the comics
+      
+      - name: created_at
+        description: date at which comic is being inserted in table
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: updated_at
+        description: date at which comic is being updated in table
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: title_length
+        description: total number of letters of title
+        tests:
+          - not_null
+          - positive_value
+
+      - name: title_cost
+        description: 5 euro * title_length 
+        tests:
+          - not_null
+          - positive_value

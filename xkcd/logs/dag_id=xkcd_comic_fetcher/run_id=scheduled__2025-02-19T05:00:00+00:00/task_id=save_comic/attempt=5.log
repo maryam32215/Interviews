@@ -1,0 +1,29 @@
+[2025-02-22T20:45:10.841+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.save_comic scheduled__2025-02-19T05:00:00+00:00 [queued]>
+[2025-02-22T20:45:10.845+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comic_fetcher.save_comic scheduled__2025-02-19T05:00:00+00:00 [queued]>
+[2025-02-22T20:45:10.845+0000] {taskinstance.py:1359} INFO - Starting attempt 5 of 6
+[2025-02-22T20:45:10.850+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): save_comic> on 2025-02-19 05:00:00+00:00
+[2025-02-22T20:45:10.852+0000] {standard_task_runner.py:57} INFO - Started process 654 to run task
+[2025-02-22T20:45:10.854+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comic_fetcher', 'save_comic', 'scheduled__2025-02-19T05:00:00+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmptum4cjqo']
+[2025-02-22T20:45:10.855+0000] {standard_task_runner.py:85} INFO - Job 69: Subtask save_comic
+[2025-02-22T20:45:10.873+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comic_fetcher.save_comic scheduled__2025-02-19T05:00:00+00:00 [running]> on host 25ffd23c4844
+[2025-02-22T20:45:10.900+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comic_fetcher' AIRFLOW_CTX_TASK_ID='save_comic' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-19T05:00:00+00:00'
+[2025-02-22T20:45:10.904+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-02-22T20:45:10.904+0000] {base.py:73} INFO - Using connection ID 'xkcd_db' for task execution.
+[2025-02-22T20:45:10.905+0000] {sql.py:418} INFO - Running statement: 
+        INSERT INTO comics 
+        (comic_id, title, img, alt_text, publish_date, transcript, updated_at)
+        VALUES (%s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP)
+        ON CONFLICT (comic_id) 
+        DO UPDATE SET 
+            title = EXCLUDED.title,
+            img = EXCLUDED.img,
+            alt_text = EXCLUDED.alt_text,
+            publish_date = EXCLUDED.publish_date,
+            transcript = EXCLUDED.transcript,
+            updated_at = CURRENT_TIMESTAMP;
+    , parameters: (3054, 'Scream Cipher', 'https://imgs.xkcd.com/comics/scream_cipher.png', 'AAAAAA A ÃA̧AȂA̦ ǍÅÂÃĀÁȂ AAAAAAA!', '2025-2-21', '')
+[2025-02-22T20:45:10.906+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-02-22T20:45:10.906+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-02-22T20:45:10.909+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xkcd_comic_fetcher, task_id=save_comic, execution_date=20250219T050000, start_date=20250222T204510, end_date=20250222T204510
+[2025-02-22T20:45:10.953+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-22T20:45:10.961+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

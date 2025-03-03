@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: xkcd
+    database: xkcd
+    schema: public
+    tables:
+      - name: comics
+        columns:
+          - name: comic_id
+            tests:
+              - unique
+              - not_null
+          - name: title
+            tests:
+              - not_null
+          - name: img
+          - name: alt_text
+          - name: transcript
+          - name: publish_date
+          - name: created_at
+          - name: updated_at

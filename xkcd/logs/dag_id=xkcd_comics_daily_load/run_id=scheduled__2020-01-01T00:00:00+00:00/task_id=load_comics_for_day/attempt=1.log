@@ -1,0 +1,17 @@
+[2025-02-22T02:23:49.702+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-01T00:00:00+00:00 [queued]>
+[2025-02-22T02:23:49.705+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-01T00:00:00+00:00 [queued]>
+[2025-02-22T02:23:49.705+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2025-02-22T02:23:49.711+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_comics_for_day> on 2020-01-01 00:00:00+00:00
+[2025-02-22T02:23:49.713+0000] {standard_task_runner.py:57} INFO - Started process 22166 to run task
+[2025-02-22T02:23:49.715+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_comics_daily_load', 'load_comics_for_day', 'scheduled__2020-01-01T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/xkcd-comics-dag.py', '--cfg-path', '/tmp/tmpruvc8ozx']
+[2025-02-22T02:23:49.717+0000] {standard_task_runner.py:85} INFO - Job 28: Subtask load_comics_for_day
+[2025-02-22T02:23:49.740+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_comics_daily_load.load_comics_for_day scheduled__2020-01-01T00:00:00+00:00 [running]> on host a231dcd502c3
+[2025-02-22T02:23:49.776+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_comics_daily_load' AIRFLOW_CTX_TASK_ID='load_comics_for_day' AIRFLOW_CTX_EXECUTION_DATE='2020-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2020-01-01T00:00:00+00:00'
+[2025-02-22T02:23:49.932+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.9/site-packages/***/utils/context.py:314 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-02-22T02:24:53.663+0000] {xkcd-comics-dag.py:36} ERROR - Error fetching comic 404: 404 Client Error: Not Found for url: https://xkcd.com/404/info.0.json
+[2025-02-22T02:30:14.271+0000] {xkcd-comics-dag.py:84} INFO - Inserted comic #2249: I Love the 20s
+[2025-02-22T02:30:14.274+0000] {xkcd-comics-dag.py:84} INFO - Inserted comic #3054: Scream Cipher
+[2025-02-22T02:30:14.275+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-02-22T02:30:14.281+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=xkcd_comics_daily_load, task_id=load_comics_for_day, execution_date=20200101T000000, start_date=20250222T022349, end_date=20250222T023014
+[2025-02-22T02:30:14.330+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-02-22T02:30:14.338+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+xkcd_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: xkcd
+      schema: public
+      threads: 1
+      target_session_attrs: read-write

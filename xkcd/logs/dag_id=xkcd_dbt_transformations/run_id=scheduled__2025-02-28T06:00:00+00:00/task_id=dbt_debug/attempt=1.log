@@ -1,0 +1,60 @@
+[2025-03-03T11:16:47.712+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xkcd_dbt_transformations.dbt_debug scheduled__2025-02-28T06:00:00+00:00 [queued]>
+[2025-03-03T11:16:47.716+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xkcd_dbt_transformations.dbt_debug scheduled__2025-02-28T06:00:00+00:00 [queued]>
+[2025-03-03T11:16:47.716+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-03-03T11:16:47.721+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): dbt_debug> on 2025-02-28 06:00:00+00:00
+[2025-03-03T11:16:47.723+0000] {standard_task_runner.py:57} INFO - Started process 455 to run task
+[2025-03-03T11:16:47.725+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'xkcd_dbt_transformations', 'dbt_debug', 'scheduled__2025-02-28T06:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/xkcd_dbt_transformations.py', '--cfg-path', '/tmp/tmpoliu8024']
+[2025-03-03T11:16:47.726+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask dbt_debug
+[2025-03-03T11:16:47.746+0000] {task_command.py:415} INFO - Running <TaskInstance: xkcd_dbt_transformations.dbt_debug scheduled__2025-02-28T06:00:00+00:00 [running]> on host 55c4a45e8eaa
+[2025-03-03T11:16:47.775+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='xkcd_dbt_transformations' AIRFLOW_CTX_TASK_ID='dbt_debug' AIRFLOW_CTX_EXECUTION_DATE='2025-02-28T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-28T06:00:00+00:00'
+[2025-03-03T11:16:47.775+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-03-03T11:16:47.776+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /opt/dbt && dbt debug --no-use-colors --no-version-check']
+[2025-03-03T11:16:47.779+0000] {subprocess.py:86} INFO - Output:
+[2025-03-03T11:16:49.226+0000] {subprocess.py:93} INFO - 11:16:49  Running with dbt=1.7.18
+[2025-03-03T11:16:49.227+0000] {subprocess.py:93} INFO - 11:16:49  dbt version: 1.7.18
+[2025-03-03T11:16:49.228+0000] {subprocess.py:93} INFO - 11:16:49  python version: 3.9.18
+[2025-03-03T11:16:49.228+0000] {subprocess.py:93} INFO - 11:16:49  python path: /usr/local/bin/python
+[2025-03-03T11:16:49.228+0000] {subprocess.py:93} INFO - 11:16:49  os info: Linux-6.10.14-linuxkit-aarch64-with-glibc2.31
+[2025-03-03T11:16:49.290+0000] {subprocess.py:93} INFO - 11:16:49  Using profiles dir at /opt/dbt
+[2025-03-03T11:16:49.291+0000] {subprocess.py:93} INFO - 11:16:49  Using profiles.yml file at /opt/dbt/profiles.yml
+[2025-03-03T11:16:49.291+0000] {subprocess.py:93} INFO - 11:16:49  Using dbt_project.yml file at /opt/dbt/dbt_project.yml
+[2025-03-03T11:16:49.291+0000] {subprocess.py:93} INFO - 11:16:49  adapter type: postgres
+[2025-03-03T11:16:49.292+0000] {subprocess.py:93} INFO - 11:16:49  adapter version: 1.7.18
+[2025-03-03T11:16:49.332+0000] {subprocess.py:93} INFO - 11:16:49  Configuration:
+[2025-03-03T11:16:49.333+0000] {subprocess.py:93} INFO - 11:16:49    profiles.yml file [OK found and valid]
+[2025-03-03T11:16:49.333+0000] {subprocess.py:93} INFO - 11:16:49    dbt_project.yml file [OK found and valid]
+[2025-03-03T11:16:49.334+0000] {subprocess.py:93} INFO - 11:16:49  Required dependencies:
+[2025-03-03T11:16:49.336+0000] {subprocess.py:93} INFO - 11:16:49   - git [ERROR]
+[2025-03-03T11:16:49.336+0000] {subprocess.py:93} INFO - 
+[2025-03-03T11:16:49.337+0000] {subprocess.py:93} INFO - 11:16:49  Connection:
+[2025-03-03T11:16:49.337+0000] {subprocess.py:93} INFO - 11:16:49    host: postgres
+[2025-03-03T11:16:49.337+0000] {subprocess.py:93} INFO - 11:16:49    port: 5432
+[2025-03-03T11:16:49.338+0000] {subprocess.py:93} INFO - 11:16:49    user: ***
+[2025-03-03T11:16:49.338+0000] {subprocess.py:93} INFO - 11:16:49    database: ***
+[2025-03-03T11:16:49.338+0000] {subprocess.py:93} INFO - 11:16:49    schema: xkcd_dbt
+[2025-03-03T11:16:49.339+0000] {subprocess.py:93} INFO - 11:16:49    connect_timeout: 10
+[2025-03-03T11:16:49.339+0000] {subprocess.py:93} INFO - 11:16:49    role: None
+[2025-03-03T11:16:49.340+0000] {subprocess.py:93} INFO - 11:16:49    search_path: None
+[2025-03-03T11:16:49.340+0000] {subprocess.py:93} INFO - 11:16:49    keepalives_idle: 0
+[2025-03-03T11:16:49.340+0000] {subprocess.py:93} INFO - 11:16:49    sslmode: None
+[2025-03-03T11:16:49.340+0000] {subprocess.py:93} INFO - 11:16:49    sslcert: None
+[2025-03-03T11:16:49.341+0000] {subprocess.py:93} INFO - 11:16:49    sslkey: None
+[2025-03-03T11:16:49.341+0000] {subprocess.py:93} INFO - 11:16:49    sslrootcert: None
+[2025-03-03T11:16:49.341+0000] {subprocess.py:93} INFO - 11:16:49    application_name: dbt
+[2025-03-03T11:16:49.342+0000] {subprocess.py:93} INFO - 11:16:49    retries: 1
+[2025-03-03T11:16:49.342+0000] {subprocess.py:93} INFO - 11:16:49  Registered adapter: postgres=1.7.18
+[2025-03-03T11:16:49.348+0000] {subprocess.py:93} INFO - 11:16:49    Connection test: [OK connection ok]
+[2025-03-03T11:16:49.348+0000] {subprocess.py:93} INFO - 
+[2025-03-03T11:16:49.349+0000] {subprocess.py:93} INFO - 11:16:49  1 check failed:
+[2025-03-03T11:16:49.349+0000] {subprocess.py:93} INFO - 11:16:49  Error from git --help: User does not have permissions for this command: "git"
+[2025-03-03T11:16:49.349+0000] {subprocess.py:93} INFO - 
+[2025-03-03T11:16:50.114+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-03-03T11:16:50.120+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-03-03T11:16:50.121+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=xkcd_dbt_transformations, task_id=dbt_debug, execution_date=20250228T060000, start_date=20250303T111647, end_date=20250303T111650
+[2025-03-03T11:16:50.127+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 84 for task dbt_debug (Bash command failed. The command returned a non-zero exit code 1.; 455)
+[2025-03-03T11:16:50.138+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-03-03T11:16:50.149+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
